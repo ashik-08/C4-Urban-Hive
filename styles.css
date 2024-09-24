@@ -166,3 +166,44 @@ nav {
   border-radius: 50%;
   margin: 5px;
 }
+
+/* discount */
+.discount-section {
+  background-color: #9376e0;
+  min-height: 500px;
+  padding: 20px 0px;
+}
+.discount-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px solid yellow;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+.discount-img {
+  width: 50%;
+  position: relative;
+}
+.discount-img img {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.discount-text {
+  width: 50%;
+}
+.discount-number {
+  background-color: yellow;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
